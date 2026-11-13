@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+*.user
+
+# Notes de travail personnelles, pas destinées au dépôt public
+ANALYSE_ANCIEN_PROJET.md
+DECISIONS.md
