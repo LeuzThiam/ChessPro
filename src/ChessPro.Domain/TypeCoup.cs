@@ -5,14 +5,14 @@ namespace ChessPro.Domain;
 /// plutôt que plusieurs booléens indépendants (EstPromotion/EstEnPassant/EstPetitRoque/...)
 /// qui peuvent se contredire.
 /// </summary>
-public enum MoveFlag
+public enum TypeCoup
 {
-    Quiet,
+    Normal,
     Capture,
-    DoublePawnPush,
-    EnPassant,
-    CastleKingSide,
-    CastleQueenSide,
+    PousseeDouble,
+    PriseEnPassant,
+    PetitRoque,
+    GrandRoque,
     Promotion,
     PromotionCapture
 }
